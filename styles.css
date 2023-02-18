@@ -1,0 +1,36 @@
+#main {
+  box-sizing: border-box;
+  height: 561px;
+  width: 778px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 16px 58px 19px 16px;
+}
+
+.tooltip {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.tooltip div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tooltip_heading {
+  margin-bottom: 1px;
+}
+
+.tooltip_subheading {
+  column-gap: 16px;
+  margin-bottom: 1px;
+}
+
+.extra_bold {
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: 600;
+}
